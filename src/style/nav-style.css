@@ -1,0 +1,25 @@
+.logo-img {
+    width: 100px;
+}
+
+#nav-bar {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+#nav-bar, .nav-items {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-items {
+    padding: 10px;
+
+    list-style: none;
+}
+
+.nav-items > li {
+    margin: 10px;
+}
